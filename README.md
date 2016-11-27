@@ -7,7 +7,7 @@ This tool is forked from an existing project which is purposed to allow quick an
 
 
 ## why?
-The original tool required you to visit the site and copy the links in to your clipboard.
+The original tool required you to visit the site and copy the links in to your clipboard, which the script then polled and used to know which gallery to download.
 
 I didn't want to fudge with getting Python setup on my Windows machine and preferred to use a headless machine.
 
