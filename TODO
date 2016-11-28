@@ -1,0 +1,2 @@
+-Break the logic for finding images per website off in to separate configuration files so more can be added on easily
+-Wrap the core script in Tk so it has a basic GUI for users who do not want to use the command-line
