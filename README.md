@@ -13,4 +13,4 @@ I didn't want to fudge with getting Python setup on my Windows machine and prefe
 
 
 ## differences
-Currently you can provide URLs to the script via arguments (./IFLoad.py "url1" "url2" "url3") or by passing the "-f" option and specifying a text file that contains URLs on their own line.
+Currently you can provide URLs to the script via arguments (./IFLoad.py "url1" "url2" "url3") or by passing the "-f" option and specifying a text file that contains URLs on their own line (./IFLoad.py -f test.file).
