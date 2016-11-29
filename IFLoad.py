@@ -21,7 +21,6 @@ def choochoochoose():
         print 'You passed the file (-f) option but the file specified does not exist. Exiting.'
         sys.exit(1)
     else:
-        urlcount = len(sys.argv[1:])
         argmain()
 
 ### this feels dirty
@@ -45,6 +44,7 @@ def filemain():
             sys.exit(1)
 
 def argmain():    
+    urlcount = len(sys.argv[1:])
     print 'Beginning to process %i URL(s)' % (urlcount)
     if len(sys.argv) != 0:
         for argurl in sys.argv[1:]:
