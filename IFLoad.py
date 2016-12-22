@@ -15,6 +15,11 @@ def choochoochoose():
     config.LoadConfig('IFLoad.config')
     print 'ImageFap Gallery Downloader '+version
     print 'CLI fork by neverlocateme'
+    try:
+        testargs = sys.argv[1]
+    except IndexError:
+        print 'No arguments passed. Closing.'
+        sys.exit(1)    
     if sys.argv[1] == '-f' and os.path.isfile(sys.argv[2]):
         filemain()
     elif sys.argv[1] == '-f' and not os.path.isfile(sys.argv[2]):
