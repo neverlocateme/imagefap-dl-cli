@@ -14,7 +14,6 @@ version = '0.5'
 def choochoochoose():
     config.LoadConfig('IFLoad.config')
     print 'ImageFap Gallery Downloader '+version
-    print 'CLI fork by neverlocateme'
     try:
         testargs = sys.argv[1]
     except IndexError:

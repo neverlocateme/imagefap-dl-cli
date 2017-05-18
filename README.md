@@ -3,8 +3,7 @@
 ## what is it?
 This tool is forked from an existing project which is purposed to allow quick and easy downloading of user uploaded galleries on imagefap.com and xhamster.com
 
-*Original Project: https://sourceforge.net/projects/imagefap-gallery-downloader/*
-
+Moved home to Github, Sourceforge project will no longer be updated.
 
 ## why?
 The original tool required you to visit the site and copy the links in to your clipboard, which the script then polled and used to know which gallery to download.
